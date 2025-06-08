@@ -1,9 +1,9 @@
 /*
-   Title   : SCARA Robot (Arduino-based)
-   Author  : Matthew Garcia
-   Date    : June 3, 2025
-   Purpose : Controls the SCARA robot using Arduino and the AccelStepper library for stepper motor control.
-             Library reference: http://www.airspayce.com/mikem/arduino/AccelStepper/
+Title   : SCARA Robot (Arduino-based)
+Author  : Matthew Garcia
+Date    : June 3, 2025
+Purpose : Controls the SCARA robot using Arduino and the AccelStepper library for stepper motor control.
+          Library reference: http://www.airspayce.com/mikem/arduino/AccelStepper/
 */
 
 #include <AccelStepper.h>
