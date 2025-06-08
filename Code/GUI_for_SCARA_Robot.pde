@@ -1,10 +1,10 @@
 /*
-   Title   : SCARA Robot GUI (Arduino-based)
-   Author  : Matthew Garcia
-   Date    : June 3, 2025
-   Purpose : Implements a graphical user interface to control a SCARA robot using Arduino.
-             Utilizes the AccelStepper library for stepper motor control.
-             Library reference: http://www.airspayce.com/mikem/arduino/AccelStepper/
+Title   : SCARA Robot GUI (Arduino-based)
+Author  : Matthew Garcia
+Date    : June 3, 2025
+Purpose : Implements a graphical user interface to control a SCARA robot using Arduino.
+          Utilizes the AccelStepper library for stepper motor control.
+          Library reference: http://www.airspayce.com/mikem/arduino/AccelStepper/
 */
 
 import processing.serial.*;
