@@ -270,7 +270,7 @@ void setup() {
   cp5.addSlider("gripperValue")
     .setPosition(605, 445)
     .setSize(190, 30)
-    .setRange(0, 100)
+    .setRange(0, 180)            // 0, 100 <- prev range values
     .setColorLabel(#3269c2)
     .setFont(font)
     .setCaptionLabel("")
@@ -578,3 +578,4 @@ public void updateData() {
     +","+str(speedSlider)
     +","+str(accelerationSlider);
 }
+
