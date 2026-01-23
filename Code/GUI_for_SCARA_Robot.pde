@@ -1,10 +1,10 @@
 /*
-Title   : SCARA Robot GUI (Arduino-based)
-Author  : Matthew Garcia
-Date    : June 3, 2025
-Purpose : Implements a graphical user interface to control a SCARA robot using Arduino.
-          Utilizes the AccelStepper library for stepper motor control.
-          Library reference: http://www.airspayce.com/mikem/arduino/AccelStepper/
+   Title   : SCARA Robot GUI (Arduino-based)
+   Author  : Matthew Garcia
+   Date    : June 3, 2025
+   Purpose : Implements a graphical user interface to control a SCARA robot using Arduino.
+             Utilizes the AccelStepper library for stepper motor control.
+             Library reference: http://www.airspayce.com/mikem/arduino/AccelStepper/
 */
 
 import processing.serial.*;
@@ -17,7 +17,7 @@ ControlP5 cp5; // controlP5 object
 int j1Slider = 0;
 int j2Slider = 0;
 int j3Slider = 0;
-int zSlider = 100;
+int zSlider = 0;
 int j1JogValue = 0;
 int j2JogValue = 0;
 int j3JogValue = 0;
@@ -56,7 +56,7 @@ String data;
 void setup() {
 
   size(960, 800);
-  //myPort = new Serial(this, "COM3", 115200);
+  myPort = new Serial(this, "COM4", 115200);
   
   cp5 = new ControlP5(this);
 
@@ -163,7 +163,7 @@ void setup() {
   cp5.addSlider("zSlider")
     .setPosition(110, 565)
     .setSize(270, 30)
-    .setRange(0, 150)
+    .setRange(-50, 50)
     .setColorLabel(#3269c2)
     .setFont(font)
     .setCaptionLabel("")
