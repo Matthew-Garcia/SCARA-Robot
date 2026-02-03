@@ -135,7 +135,7 @@ void loop() {
       saveManualPos = false;
     }
 
-    // Apply speed/accel = maxSpeed (like HowToMechatronics)
+    // Apply speed/accel = maxSpeed
     stepper1.setMaxSpeed(data[7]);
     stepper2.setMaxSpeed(data[7]);
     stepper3.setMaxSpeed(data[7]);
@@ -254,3 +254,4 @@ void loop() {
     delay(200);
   }
 }
+
