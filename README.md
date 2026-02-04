@@ -24,5 +24,5 @@ This project showcases a SCARA (Selective Compliance Articulated Robot Arm) I bu
 
 ---
 
-[← Back to Portfolio](https://matthew-garcia-portfolio2.vercel.app)
+[← Back to Portfolio](https://matthew-garcia-portfolio.vercel.app)
 
